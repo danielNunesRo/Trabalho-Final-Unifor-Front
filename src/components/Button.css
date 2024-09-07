@@ -1,0 +1,14 @@
+.botao-nav {
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-nav:hover {
+    background-color: #f0f0f0;
+  }
+  

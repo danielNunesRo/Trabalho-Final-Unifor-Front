@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 2% 8%;
+    height: 100%;
+  }
+  
+  .center-nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #logo-nav {
+    font-family: Kanit, 'tahoma';
+    color: white;
+    font-size: 2rem;
+  }
+  
+  #Paragrafo {
+    font-family: Kanit, 'tahoma';
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  
+  .buttons-nav {
+    margin-top: 20px; 
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .botao-nav {
+    border-radius: 1px white solid;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-nav:hover {
+    background-color: #f0f0f0;
+  }
+  

@@ -1,0 +1,9 @@
+
+#eventos-lista {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 8%;
+    padding-top: 20px;
+  }
+  
