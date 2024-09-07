@@ -5,6 +5,10 @@ import './Navbar.css';
 function Navbar() {
   const redirectToLogin = () => {
     window.location.href = '/login';
+  }
+  
+  const redirectToRegistro = () => {
+    window.location.href= '/registro'
   };
 
   return (
@@ -14,7 +18,7 @@ function Navbar() {
         <p id="Paragrafo">O Guia Definitivo das Melhores Festas da Cidade</p>
         <div className="buttons-nav">
           <Button onClick={redirectToLogin} text="Login" />
-          <Button text="Registro" />
+          <Button onClick={redirectToRegistro} text="Registro" />
         </div>
       </div>
     </nav>

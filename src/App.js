@@ -2,17 +2,18 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import EventList from './components/EventList';
+import Home from './pages/Home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div className="inicio">
-        <Navbar />
-      </div>
-      <div className="corpo">
-        <EventList />
-      </div>
+      <BrowserRouter>
+          <Routes>
+              <Route path='/' element={<Home />}/>  
+          </Routes> 
+      </BrowserRouter>
     </div>
   );
 }
